@@ -1,0 +1,169 @@
+:root {
+    --color1: #2C1F70;
+    --color2: #ED2B74;
+    --color3: #1FC0F2;
+    --color4: #EC9A50;
+    --color5: #C49020;
+
+}
+
+body {
+    margin: 0;
+    font-family: arial;
+    
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    height: 300px;
+    
+}
+
+div.banniereH {
+    background-position: center;
+    background-size: cover;
+    
+    color: white;
+    text-align: center;
+}
+
+div.banniereH p {
+   margin-bottom: 0px;
+    color: var(--color2);
+}
+
+img.logo {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+h1 {
+    color: var(--color2);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+a {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 34px;
+    margin-top: 0px;
+    background-color: var(--color1);
+    color: var(--color5);
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px
+}
+
+div.accueil {
+    background-color: var(--color1);
+    color: var(--color5);
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px
+}
+
+h2 {
+    font-size: 34px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+div.biais_haut {
+    
+    background: url(triangle2white.svg) no-repeat center bottom -1px /100%;
+    background-color: var(--color1);
+    padding-bottom: 80px;
+
+}
+
+div.biais_bas {
+    
+    background: url(triangle1white.svg) no-repeat center top /100%;
+    background-color: var(--color1);
+    padding-top: 100px;
+    
+}
+
+.section {
+    padding: 30px 40px 30px 40px;
+    overflow: auto;
+    background-color: #EBEBEB;
+    
+}
+
+div.frame {
+    
+    background-color: var(--color1);
+    padding-bottom: 80px;
+    
+}
+
+div.separateur {
+    width: 150px;
+    height: 5px;
+    background-color: var(--color2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.col40 {
+    width: 30%;
+}
+.col60 {
+    width: 70%;
+}
+
+.float-right {
+    float: right;
+}
+
+p.text-avec-ligne-verticale {
+    margin-top: 0px;
+   
+}
+    
+div.text-avec-ligne-verticale {
+    margin-top: 0px;
+    border-left: 4px solid var(--color2);
+    padding-left: 8px;
+    height: 50px;
+    display: inline-block;
+}
+
+div.barre-verticale {
+    height: 50px;
+    width: 4px;
+    background-color: var(--color2);
+    margin-right: 8px;
+}
+
+.esp-colon-tech {
+    width: 47%;
+}
+
+div.frame {
+    margin: 30px 50px;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+p.frame-titre {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Page 2 et 3 */
+
+.vb-head {
+    background: url(logoyam.png);
+    height: 80px;
+    background-color: var(--color1);
+}
+
+
